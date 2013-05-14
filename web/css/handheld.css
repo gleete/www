@@ -1,0 +1,233 @@
+html, body {
+        height:auto !important; /* FF and compliant browsers should automatically size the body/html */
+        height:100%; /* ie will set the body/html to 100%, anything overflowing that will (incorrectly) resize it. go IE */
+        min-height:100%; /* when FF/etc automatically size the body/html it should be AT LEAST the height of the entire browser window, but can expand based on content. */
+	}
+html,body {margin:0;padding:0}
+@font-face
+	{
+	font-family: "Bebas";
+	src:url('http://www.gordoleete.com/web/fonts/BebasNeue.otf');
+        }
+@font-face
+        {
+        font-family: "Myriad";
+        src: url('http://www.gordoleete.com/web/fonts/myriad.ttf');
+        }
+	
+@font-face
+        {
+        font-family: "nc";
+        src: url('http://www.gordoleete.com/web/fonts/nc.ttf');
+        }
+@font-face
+        {
+        font-family: "keepon";
+        src: url('http://www.gordoleete.com/web/fonts/KeepCalm.ttf');
+        }
+
+@font-face
+        {
+        font-family: "Futura";
+        src: url('http://www.gordoleete.com/web/fonts/Futura.ttc');
+	src: local('Futura'), local('Futura'),
+         url('http://www.gordoleete.com/web/fonts/Futura.ttc') format('truetype');
+        }
+body 
+	{
+	height:100%;
+        background-image: url(../img/o.jpg); 
+        	 background-repeat: repeat;
+        width:100%;
+   	 }
+#box a{
+	border-bottom:none;
+	text-shadow:
+	-4px -4px 0 #000,
+	4px -4px 0 #000,
+	-4px 4px 0 #000,
+	4px 4px 0 #000;  
+color: 	#FFFFF0;  	padding-bottom: 10px;
+   	font-weight: bold;
+	font: 86px/86px Bebas, sans-serif;
+	text-align:center;
+	}
+a 	
+	{ 
+	text-decoration: none; 
+	border-bottom:none;
+	color: #4B808E; 
+	}
+#box
+	{
+	height:auto !important; /* FF and compliant browsers should automatically size the body/html */
+        height:100%; /* ie will set the body/html to 100%, anything overflowing that will (incorrectly) resize it. go IE */
+        min-height:100%; /* when FF/etc automatically size the body/html it should be AT LEAST the height of the entire browser window, but can expand based on content. */
+	z-index: 3;
+	position: absolute;
+
+	
+	background-image: url(../img/o.jpg);
+	background-repeat: repeat;
+   	padding: 30px;
+   	width:250px;
+   	margin: auto;
+	box-shadow: 10px 0px 10px #000;
+   	-webkit-box-shadow: 10px 0px 10px #000;
+   	-mozilla-box-shadow: 10px 0px 10px #000;
+	border-right: 4px solid #000000;
+	}
+#box h1
+	{
+		
+	text-shadow:
+        -2px -2px 0 #000,
+	2px -2px 0 #000,
+	-2px 2px 0 #000,
+	2px 2px 0 #000; 
+color: 	#FFFFF0;
+padding-bottom: 10px;
+   	font-weight: bold;
+	font: 86px/86px Bebas, sans-serif;
+	text-align:center;
+	}
+#box h3
+	{
+	text-shadow:
+	-2px -2px 0 #000,
+	2px -2px 0 #000,
+	-2px 2px 0 #000,
+	2px 2px 0 #000; 
+color: 	#FFFFF0;   	font: 32px/32px Bebas, sans-serif;
+	text-align:center;
+	margin-bottom:20px;
+	}
+#box ul li
+	{
+   	color: #000000;
+        background-color: rgba(255, 255, 255, .4);
+	font-family:Bebas, sans-serif;
+   	font-size:30px;
+   	text-align:center;
+   	border-radius:12px;
+   	-webkit-border-radius:12px;
+   	-mozilla-border-radius:12px;
+	padding: 18px 30px;
+	margin-bottom:22px;
+	border: 4px solid #000000;
+	}
+.contentbox
+	{
+	z-index:1;
+	position: absolute;
+	left: 0px;
+	background-color: #E3DAC9;
+	background-image: url(../img/PaperTile.jpg);
+		background-repeat: repeat;
+
+
+	padding: 30px 30px 80px 80px;
+	width: 80%;
+	height: auto;
+   	margin: 30px 30px 30px 30px;
+   	box-shadow: 15px 12px 30px #000;
+   	-webkit-box-shadow: 15px 12px 30px #000;	
+   	-mozilla-box-shadow: 15px 12px 30px #000;	
+	border-radius:12px;
+   	-webkit-border-radius:12px;
+   	-mozilla-border-radius:12px;
+	border: 4px solid #000000;
+   	}
+.contentbox p
+	{
+	margin-top: 50px;
+	text-align:justify;
+	margin-left: 250px;
+	padding: 0 80px 0 50px;
+	width: auto;
+        text-indent:50px;
+        font:18px/30px Futura, sans-serif;
+	}
+	
+.contentbox h1
+	{
+	font: 60px nc;
+	text-align:center;
+	margin-left: 220px;
+	padding-top: 50px;
+	}
+.contentbox p.animate
+	{ 
+
+	}
+#box ul li:hover,
+.textbox ul li:hover
+	{
+	cursor:pointer;
+	}
+#box ul li.boxshadow
+	{
+	-moz-box-shadow: 0 0 15px #000;
+	-webkit-box-shadow:0 0 15px #000;
+	box-shadow:0px 0 15px #000;
+	background-color: #E3DAC9;
+	background-image: url(../img/PaperTile.jpg); 
+	background-repeat: repeat;
+	}
+.ul li button
+	{
+	width: auto;
+	z-index: 6;
+	color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255,.5);
+	font-family:Bebas, sans-serif;
+   	font-size:24px;
+   	text-align:center;
+   	border-radius:12px;
+   	-webkit-border-radius:12px;
+   	-mozilla-border-radius:12px;
+	padding: 10px 10px;
+	margin:auto;
+	}
+#box p
+	{
+	z-index: 6;
+	color: rgba(0, 0, 0, 1);
+	font-family:Myriad, sans serif;
+	}
+#box h2 {
+	text-shadow:
+	-2px -2px 0 #000,
+	2px -2px 0 #000,
+	-2px 2px 0 #000,
+	2px 2px 0 #000; 
+color: 	#FFFFF0;	font: 60px keepon;
+	text-align:center;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: 5px;    
+	}
+body.on #box a,
+body.on #box h2{
+	color: #FFFFF0; 	
+	}
+body.on .contentbox h1,
+body.on .contentbox p
+	{
+	
+	}
+body.on #box h1,
+body.on #box h3
+	{
+ 	color: 	#FFFFF0;
+	}
+body.on #box li.boxshadow,
+body.on .contentbox {
+	background-image: url(../img/PaperTile.jpg); 
+    background-repeat: repeat;
+	}
+body.on,
+body.on #box {
+	background-image: url(../img/a.jpg); 
+}
